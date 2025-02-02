@@ -253,15 +253,15 @@ export default function Home() {
             </div>
 
             {/* Connect Button */}
-            <motion.button
-              onClick={() => window.location.href = 'tel:+919934019585'}
+            {/* <motion.button
+              onClick={() => window.location.href = 'tel:+919934019585'} 
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               className="w-full mt-4 bg-gradient-to-r from-red-600 to-pink-600 hover:from-red-700 hover:to-pink-700 text-white py-2.5 sm:py-3 rounded-xl text-sm sm:text-base font-medium flex items-center justify-center gap-2 shadow-lg"
             >
               <FaHeart className="text-pink-300 text-xs sm:text-sm" />
               Connect Now
-            </motion.button>
+            </motion.button> */}
           </motion.div>
 
           <motion.div 
@@ -450,7 +450,7 @@ export default function Home() {
 
             {/* Connect Button */}
             <motion.button
-              onClick={() => window.location.href = 'tel:+919934019585'}
+              onClick={() => window.location.href = 'tel:+919934019585'} 
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="w-full bg-gradient-to-r from-red-600 to-red-500 hover:from-red-700 hover:to-red-600 text-white py-4 rounded-xl font-medium flex items-center justify-center gap-3 mt-6 shadow-lg transition-all duration-300"
