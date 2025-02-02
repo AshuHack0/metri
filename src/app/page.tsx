@@ -173,7 +173,7 @@ export default function Home() {
             {/* Profile Image Container */}
             <div className="relative h-64 sm:h-72 md:h-80 mb-4 sm:mb-6 md:mb-8 rounded-xl sm:rounded-2xl overflow-hidden group ring-2 sm:ring-4 ring-red-100 dark:ring-red-500/20 ring-offset-2">
               <Image
-                src="/jyoti.jpg"
+                src="/jyoti.png"
                 alt="Profile Picture"
                 fill
                 className="object-cover transition-all duration-500 group-hover:scale-110 group-hover:rotate-2"
