@@ -32,15 +32,15 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "Jyoti's Profile",
     description: "Marriage Biodata - वैवाहिक परिचय",
-    images: ['/jyoti.jpg'], // Make sure this matches your image path in public folder
+    images: ['/biodata.jpg'], // Make sure this matches your image path in public folder
   },
   icons: {
-    icon: '/jyoti.jpg',  // This will be used as favicon
-    shortcut: '/jyoti.jpg',
-    apple: '/jyoti.jpg',
+    icon: '/biodata.jpg',  // This will be used as favicon
+    shortcut: '/biodata.jpg',
+    apple: '/biodata.jpg',
     other: {
       rel: 'apple-touch-icon-precomposed',
-      url: '/jyoti.jpg',
+      url: '/biodata.jpg',
     },
   },
 };
