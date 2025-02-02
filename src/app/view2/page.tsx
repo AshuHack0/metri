@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { FaOm, FaHeart, FaUserGraduate, FaMapMarkerAlt, FaBriefcase, FaRulerVertical, FaBirthdayCake, FaStar, FaPrayingHands, FaBookReader, FaInfoCircle } from 'react-icons/fa';
+import { FaOm, FaHeart, FaUserGraduate, FaMapMarkerAlt, FaBriefcase, FaRulerVertical, FaBirthdayCake, FaStar, FaPrayingHands, FaBookReader } from 'react-icons/fa';
 import { GiFlowerPot, GiLotusFlower, GiPeaceDove, GiIndiaGate, GiPeaks } from 'react-icons/gi';
 import { useState } from 'react';
 

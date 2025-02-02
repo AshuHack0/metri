@@ -1,10 +1,9 @@
 'use client';
 
 import Image from "next/image";
-import { motion, AnimatePresence } from "framer-motion";
-import { FaOm, FaHeart, FaUserGraduate, FaMapMarkerAlt, FaBriefcase, FaRulerVertical, FaBirthdayCake, FaUserFriends, FaBuilding, FaStethoscope, FaLaptopCode, FaUsers, FaGraduationCap, FaHome, FaPrayingHands } from 'react-icons/fa';
-import { GiFlowerPot, GiIndiaGate, GiLotusFlower, GiPeaceDove, GiPrayerBeads, GiTemple } from 'react-icons/gi';
-import { useState } from 'react';
+import { motion } from "framer-motion";
+import { FaOm, FaHeart, FaUserGraduate, FaMapMarkerAlt, FaBriefcase, FaRulerVertical, FaBirthdayCake, FaBuilding, FaStethoscope, FaLaptopCode, FaUsers, FaGraduationCap, FaHome } from 'react-icons/fa';
+import { GiFlowerPot, GiLotusFlower, GiPrayerBeads } from 'react-icons/gi';
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -29,18 +28,6 @@ const itemVariants = {
   }
 };
 
-const floatingAnimation = {
-  y: [-10, 10],
-  transition: {
-    y: {
-      duration: 2,
-      repeat: Infinity,
-      repeatType: "reverse",
-      ease: "easeInOut"
-    }
-  }
-};
-
 const omAnimation = {
   scale: [1, 1.1, 1],
   rotate: [0, 5, -5, 0],
@@ -60,44 +47,12 @@ const lotusAnimation = {
   }
 };
 
-const prayerAnimation = {
-  rotate: [-5, 5],
-  transition: {
-    duration: 2,
-    repeat: Infinity,
-    repeatType: "reverse"
-  }
-};
-
-const glowAnimation = {
-  boxShadow: [
-    "0 0 5px rgba(255, 192, 203, 0.5)",
-    "0 0 20px rgba(255, 192, 203, 0.7)",
-    "0 0 5px rgba(255, 192, 203, 0.5)"
-  ],
-  transition: {
-    duration: 2,
-    repeat: Infinity
-  }
-};
-
 const cardHoverAnimation = {
   scale: 1.02,
   boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
   transition: {
     type: "spring",
     stiffness: 100
-  }
-};
-
-const shimmerAnimation = {
-  background: [
-    "linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%)",
-    "linear-gradient(90deg, rgba(255,255,255,0) 100%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 0%)"
-  ],
-  transition: {
-    duration: 1.5,
-    repeat: Infinity
   }
 };
 
