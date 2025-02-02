@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description: "Namaste! I am a cultured individual who values both modern thinking and traditional values. I am deeply rooted in our cultural heritage while embracing contemporary lifestyle. - वैवाहिक परिचय",
   openGraph: {
     title: "Jyoti's Profile",
-    description: "Marriage Biodata - वैवाहिक परिचय",
+    description: "Namaste! I am a cultured individual who values both modern thinking and traditional values. I am deeply rooted in our cultural heritage while embracing contemporary lifestyle. - वैवाहिक परिचय",
     images: [
       {
         url: '/jyoti.jpg',  // Make sure this matches your image path in public folder
