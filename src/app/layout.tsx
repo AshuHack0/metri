@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description: "Namaste! I am a cultured individual who values both modern thinking and traditional values. I am deeply rooted in our cultural heritage while embracing contemporary lifestyle. - वैवाहिक परिचय",
     images: [
       {
-        url: '/jyoti.jpg',  // Make sure this matches your image path in public folder
+        url: '/biodata.jpg',  // Make sure this matches your image path in public folder
         width: 800,
         height: 600,
         alt: "Jyoti's Profile Picture",
